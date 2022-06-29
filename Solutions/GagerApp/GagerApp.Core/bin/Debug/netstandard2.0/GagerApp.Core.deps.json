@@ -1,0 +1,280 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "GagerApp.Core/1.0.0": {
+        "dependencies": {
+          "Calcium.Essentials": "2.5.0",
+          "Calcium.Extras": "2.5.0",
+          "Fody": "6.3.0",
+          "GagerApp.Model": "1.0.0",
+          "NETStandard.Library": "2.0.3",
+          "TomsToolbox.ObservableCollections": "2.3.2",
+          "WeakEventHandler.Fody": "1.7.0"
+        },
+        "runtime": {
+          "GagerApp.Core.dll": {}
+        }
+      },
+      "AutoMapper/10.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.1.1.0"
+          }
+        }
+      },
+      "Calcium/2.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/Calcium.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Calcium.Essentials/2.5.0": {
+        "dependencies": {
+          "Calcium": "2.5.0"
+        }
+      },
+      "Calcium.Extras/2.5.0": {
+        "dependencies": {
+          "Calcium": "2.5.0",
+          "Calcium.Extras.Core": "2.5.0"
+        }
+      },
+      "Calcium.Extras.Core/2.5.0": {
+        "dependencies": {
+          "Calcium": "2.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Calcium.Extras.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Fody/6.3.0": {},
+      "Microsoft.CSharp/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.ComponentModel.Annotations.dll": {
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Emit.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Emit.ILGeneration.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "TomsToolbox.Essentials/2.3.2": {
+        "runtime": {
+          "lib/netstandard2.0/TomsToolbox.Essentials.dll": {
+            "assemblyVersion": "2.3.2.0",
+            "fileVersion": "2.3.2.0"
+          }
+        }
+      },
+      "TomsToolbox.ObservableCollections/2.3.2": {
+        "dependencies": {
+          "TomsToolbox.Essentials": "2.3.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/TomsToolbox.ObservableCollections.dll": {
+            "assemblyVersion": "2.3.2.0",
+            "fileVersion": "2.3.2.0"
+          }
+        }
+      },
+      "WeakEventHandler.Fody/1.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/WeakEventHandler.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "GagerApp.Model/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "Calcium.Essentials": "2.5.0",
+          "Newtonsoft.Json": "12.0.3",
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "runtime": {
+          "GagerApp.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GagerApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/10.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
+      "path": "automapper/10.1.1",
+      "hashPath": "automapper.10.1.1.nupkg.sha512"
+    },
+    "Calcium/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AEm1X5caqnoWfii+2BDK/a7IbiJo7Xn2k2WwPjfSej0Qk6+KnD/BhsAOFQAnbDqijqPM9Ux5YvGvw5xMRaIp8Q==",
+      "path": "calcium/2.5.0",
+      "hashPath": "calcium.2.5.0.nupkg.sha512"
+    },
+    "Calcium.Essentials/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MzIC1HyiTUCq2H0LxpKgv1rmZXa9pfTWXH/qAxdFSt9OrudDBG7QGAxg8cE3q1+CoBY7tayy3moTyvHR+B3wg==",
+      "path": "calcium.essentials/2.5.0",
+      "hashPath": "calcium.essentials.2.5.0.nupkg.sha512"
+    },
+    "Calcium.Extras/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3yFxTzXq0MOxn9v/kqek3FD8l/fc24fzxMBiYiGpMhgWDuClkf9MsULH5En+StAGdblWhriA4Hticwdz1Si9Yw==",
+      "path": "calcium.extras/2.5.0",
+      "hashPath": "calcium.extras.2.5.0.nupkg.sha512"
+    },
+    "Calcium.Extras.Core/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qKpvW0yDpyRpyjxmvLJks6Yzc3eZ2zxJ6WzUBzPmuo/WzMLfS0rFdFdvZGj+sRrqqI3+/Wj0mmtzzZt490R3xg==",
+      "path": "calcium.extras.core/2.5.0",
+      "hashPath": "calcium.extras.core.2.5.0.nupkg.sha512"
+    },
+    "Fody/6.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kBGlW/vBUvBSyCvFI3YICNl77gjUr0KMROlBTeBPN/+J3JMU57w1dpXPwjmU4ahdBTYLomzgxKLaJ3jVNuXuQg==",
+      "path": "fody/6.3.0",
+      "hashPath": "fody.6.3.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AucBYo3DSI0IDxdUjKksBcQJXPHyoPyrCXYURW1WDsLI4M65Ar/goSHjdnHOAY9MiYDNKqDlIgaYm+zL2hA1KA==",
+      "path": "system.reflection.emit.ilgeneration/4.7.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512"
+    },
+    "TomsToolbox.Essentials/2.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fpOfY0Octmvj+Rl0bZZKDYWAFy7kQ/dQzgSuu/EtOve4VeosEm2UBT2Q2YJXKJUIEjJXiDj5LcPqZs6CR2wX6Q==",
+      "path": "tomstoolbox.essentials/2.3.2",
+      "hashPath": "tomstoolbox.essentials.2.3.2.nupkg.sha512"
+    },
+    "TomsToolbox.ObservableCollections/2.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+5gpOQkKt3x8iumwdjQ2ZI6rPKZE/eISaEbzF6JiKpLQ2HDhl+jPZJb0cyMWg7bfMASEBwNaVhBFMdLf8YyG8w==",
+      "path": "tomstoolbox.observablecollections/2.3.2",
+      "hashPath": "tomstoolbox.observablecollections.2.3.2.nupkg.sha512"
+    },
+    "WeakEventHandler.Fody/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-olxb7yx+Ce+Yfmv05vKVSwT4+uDmbpXuxquIaTnLEbKGQTVKS3q5c/MGp11PkpOc2M9kNIupNlDjUCVdy/Dtig==",
+      "path": "weakeventhandler.fody/1.7.0",
+      "hashPath": "weakeventhandler.fody.1.7.0.nupkg.sha512"
+    },
+    "GagerApp.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

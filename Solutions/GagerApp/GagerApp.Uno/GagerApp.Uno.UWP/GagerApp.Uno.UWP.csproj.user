@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Uno\GagerApp.Uno.Shared\Source\house_plan.png</Source>
+    <SmallTileSource>D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Uno\GagerApp.Uno.Shared\Source\house_plan.png</SmallTileSource>
+    <MediumTileSource>D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Uno\GagerApp.Uno.Shared\Source\house_plan.png</MediumTileSource>
+    <WideTileSource>D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Uno\GagerApp.Uno.Shared\Source\house_plan.png</WideTileSource>
+    <LargeTileSource>D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Uno\GagerApp.Uno.Shared\Source\house_plan.png</LargeTileSource>
+    <AppIconSource>D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Uno\GagerApp.Uno.Shared\Source\house_plan.png</AppIconSource>
+    <SplashScreenSource>D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Uno\GagerApp.Uno.Shared\Source\house_plan.png</SplashScreenSource>
+    <PackageLogoSource>D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Uno\GagerApp.Uno.Shared\Source\house_plan.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

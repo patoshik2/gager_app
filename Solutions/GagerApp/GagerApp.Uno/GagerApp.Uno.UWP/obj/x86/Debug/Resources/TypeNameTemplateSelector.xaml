@@ -1,0 +1,18 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:utils="using:GagerApp.Uno.Shared.Utils"
+    >
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="ms-appx:///Resources/LoginPageDataTemplate.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <utils:TypeNameDataTemplateSelector x:Key="TypeNameTemplateSelector">
+        <utils:TypeNameDataTemplateSelector.Templates>
+            <StaticResource x:Key="LoginPageViewModel" ResourceKey="LoginPageDataTemplate" />
+        </utils:TypeNameDataTemplateSelector.Templates>
+    </utils:TypeNameDataTemplateSelector>
+
+</ResourceDictionary>
+

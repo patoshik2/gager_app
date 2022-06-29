@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\IZamerService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Calcium.Essentials" Version="2.5.0" />
+    <PackageReference Include="Calcium.Extras" Version="2.5.0" />
+    <PackageReference Include="Fody" Version="6.3.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="TomsToolbox.ObservableCollections" Version="2.3.2" />
+    <PackageReference Include="WeakEventHandler.Fody" Version="1.7.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GagerApp.Model\GagerApp.Model.csproj" />
+  </ItemGroup>
+
+</Project>

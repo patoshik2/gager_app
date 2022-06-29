@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.iOS\\GagerApp.Uno.iOS.csproj": {}
+  },
+  "projects": {
+    "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.iOS\\GagerApp.Uno.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.iOS\\GagerApp.Uno.iOS.csproj",
+        "projectName": "GagerApp.Uno.iOS",
+        "projectPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.iOS\\GagerApp.Uno.iOS.csproj",
+        "packagesPath": "C:\\Users\\Владимир\\.nuget\\packages\\",
+        "outputPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Владимир\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Calcium.Essentials": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Calcium.Extras": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Filter": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Uno.UI.RemoteControl": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

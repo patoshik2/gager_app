@@ -1,0 +1,1 @@
+<resources><declare-styleable name="TextFont"><attr name="FontName" format="string" /></declare-styleable></resources>

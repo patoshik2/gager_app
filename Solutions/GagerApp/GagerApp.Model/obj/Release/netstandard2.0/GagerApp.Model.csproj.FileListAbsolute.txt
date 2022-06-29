@@ -1,0 +1,9 @@
+D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Model\bin\Release\netstandard2.0\GagerApp.Model.deps.json
+D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Model\bin\Release\netstandard2.0\GagerApp.Model.dll
+D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Model\bin\Release\netstandard2.0\GagerApp.Model.pdb
+D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Model\obj\Release\netstandard2.0\GagerApp.Model.csprojAssemblyReference.cache
+D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Model\obj\Release\netstandard2.0\GagerApp.Model.AssemblyInfoInputs.cache
+D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Model\obj\Release\netstandard2.0\GagerApp.Model.AssemblyInfo.cs
+D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Model\obj\Release\netstandard2.0\GagerApp.Model.csproj.CoreCompileInputs.cache
+D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Model\obj\Release\netstandard2.0\GagerApp.Model.dll
+D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Model\obj\Release\netstandard2.0\GagerApp.Model.pdb

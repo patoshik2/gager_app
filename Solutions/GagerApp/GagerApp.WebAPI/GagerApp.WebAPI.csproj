@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>ca843798-c6d7-4bd4-8668-4081e500bb15</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\**" />
+    <Content Remove="Entities\**" />
+    <EmbeddedResource Remove="Entities\**" />
+    <None Remove="Entities\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200825163845_Baseline_Migration.cs" />
+    <Compile Remove="Migrations\20200825163845_Baseline_Migration.Designer.cs" />
+    <Compile Remove="Migrations\20200827111123_Added_Refresh_Tokens.cs" />
+    <Compile Remove="Migrations\20200827111123_Added_Refresh_Tokens.Designer.cs" />
+    <Compile Remove="Migrations\20201116140904_Initial_State.cs" />
+    <Compile Remove="Migrations\20201116140904_Initial_State.Designer.cs" />
+    <Compile Remove="Migrations\20201116145413_RefreshToken_Remove_Invalidated.cs" />
+    <Compile Remove="Migrations\20201116145413_RefreshToken_Remove_Invalidated.Designer.cs" />
+    <Compile Remove="Migrations\20210409132506_InitialCommit.cs" />
+    <Compile Remove="Migrations\20210409132506_InitialCommit.Designer.cs" />
+    <Compile Remove="Migrations\20210409133556_AddRefreshTokens.cs" />
+    <Compile Remove="Migrations\20210409133556_AddRefreshTokens.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\UsersController.cs~RF6dc38b6.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GagerApp.Model\GagerApp.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Utils\" />
+  </ItemGroup>
+
+
+</Project>

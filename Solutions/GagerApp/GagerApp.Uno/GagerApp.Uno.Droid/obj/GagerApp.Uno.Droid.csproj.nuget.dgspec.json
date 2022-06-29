@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.Droid\\GagerApp.Uno.Droid.csproj": {}
+  },
+  "projects": {
+    "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.Droid\\GagerApp.Uno.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.Droid\\GagerApp.Uno.Droid.csproj",
+        "projectName": "GagerApp.Uno.Droid",
+        "projectPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.Droid\\GagerApp.Uno.Droid.csproj",
+        "packagesPath": "C:\\Users\\Владимир\\.nuget\\packages\\",
+        "outputPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.Droid\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Владимир\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Calcium.Essentials": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Calcium.Extras": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Filter": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Uno.UI.RemoteControl": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Uno.UniversalImageLoader": {
+              "target": "Package",
+              "version": "[1.9.33, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

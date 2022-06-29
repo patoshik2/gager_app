@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "1paAsfuEjElcbbHrBW30V+0ieBrU9K+H8m5V9vHFxdEA+M2Wsv8QXy/iSWcj7G6N+KqbIr5rYBeeHHRKvM7uUg==",
+  "success": true,
+  "projectFilePath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Core\\GagerApp.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Владимир\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\calcium\\2.5.0\\calcium.2.5.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\calcium.essentials\\2.5.0\\calcium.essentials.2.5.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\calcium.extras\\2.5.0\\calcium.extras.2.5.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\calcium.extras.core\\2.5.0\\calcium.extras.core.2.5.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\fody\\6.3.0\\fody.6.3.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\tomstoolbox.essentials\\2.3.2\\tomstoolbox.essentials.2.3.2.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\tomstoolbox.observablecollections\\2.3.2\\tomstoolbox.observablecollections.2.3.2.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\weakeventhandler.fody\\1.7.0\\weakeventhandler.fody.1.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

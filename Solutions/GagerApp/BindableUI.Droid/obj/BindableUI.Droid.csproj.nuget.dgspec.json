@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\BindableUI.Droid\\BindableUI.Droid.csproj": {}
+  },
+  "projects": {
+    "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\BindableUI.Droid\\BindableUI.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\BindableUI.Droid\\BindableUI.Droid.csproj",
+        "projectName": "BindableUI.Droid",
+        "projectPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\BindableUI.Droid\\BindableUI.Droid.csproj",
+        "packagesPath": "C:\\Users\\Владимир\\.nuget\\packages\\",
+        "outputPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\BindableUI.Droid\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Владимир\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Calcium.Essentials": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Calcium.Extras": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "TomsToolbox.ObservableCollections": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            },
+            "WeakEventHandler.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.6, )"
+            },
+            "Xamarin.AndroidX.RecyclerView": {
+              "target": "Package",
+              "version": "[1.1.0.6, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.2.1.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

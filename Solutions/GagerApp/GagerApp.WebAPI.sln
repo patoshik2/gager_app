@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GagerApp.WebAPI", "GagerApp.WebAPI\GagerApp.WebAPI.csproj", "{77C7F91E-F5D5-4A17-AEFF-053F25323A87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GagerApp.Model", "GagerApp.Model\GagerApp.Model.csproj", "{A62F9515-5307-4A14-A83A-B61E142A0572}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77C7F91E-F5D5-4A17-AEFF-053F25323A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C7F91E-F5D5-4A17-AEFF-053F25323A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C7F91E-F5D5-4A17-AEFF-053F25323A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C7F91E-F5D5-4A17-AEFF-053F25323A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62F9515-5307-4A14-A83A-B61E142A0572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62F9515-5307-4A14-A83A-B61E142A0572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62F9515-5307-4A14-A83A-B61E142A0572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62F9515-5307-4A14-A83A-B61E142A0572}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AFA49A5-0180-4B8F-86C2-E47B23667CD5}
+	EndGlobalSection
+EndGlobal

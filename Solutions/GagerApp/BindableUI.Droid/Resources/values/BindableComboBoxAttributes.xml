@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <declare-styleable name="BindableComboBox">
+    <attr name="bindableComboBoxLayout" format="reference" />
+  </declare-styleable>
+
+  <item name="bindableComboBox_container" type="id"/>
+
+</resources>
+

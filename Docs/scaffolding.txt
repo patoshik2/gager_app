@@ -1,0 +1,1 @@
+Scaffold-DbContext "workstation id=GagerApp.mssql.somee.com;packet size=4096;user id=kras_v_SQLLogin_1;pwd=g9bs84gwte;data source=GagerApp.mssql.somee.com;persist security info=False;initial catalog=GagerApp" Microsoft.EntityFrameworkCore.SqlServer -DataAnnotations -ContextDir Data -OutputDir Models -Force

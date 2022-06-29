@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "33PO6HmMwc8Pw/Rn7vGZGCKWK+9BN3bDUuKDdzLo/CVNYqldaASTtlMMznX4h7E7IBj9H15MwgZfSeSUlO0nKw==",
+  "success": true,
+  "projectFilePath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Model\\GagerApp.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Владимир\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\calcium\\2.5.0\\calcium.2.5.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\calcium.essentials\\2.5.0\\calcium.essentials.2.5.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\Владимир\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

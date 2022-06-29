@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.UWP\\GagerApp.Uno.UWP.csproj": {}
+  },
+  "projects": {
+    "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Core\\GagerApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Core\\GagerApp.Core.csproj",
+        "projectName": "GagerApp.Core",
+        "projectPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Core\\GagerApp.Core.csproj",
+        "packagesPath": "C:\\Users\\Владимир\\.nuget\\packages\\",
+        "outputPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Владимир\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Model\\GagerApp.Model.csproj": {
+                "projectPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Model\\GagerApp.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Calcium.Essentials": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Calcium.Extras": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "TomsToolbox.ObservableCollections": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "WeakEventHandler.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Model\\GagerApp.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Model\\GagerApp.Model.csproj",
+        "projectName": "GagerApp.Model",
+        "projectPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Model\\GagerApp.Model.csproj",
+        "packagesPath": "C:\\Users\\Владимир\\.nuget\\packages\\",
+        "outputPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Владимир\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Calcium.Essentials": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.UWP\\GagerApp.Uno.UWP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.UWP\\GagerApp.Uno.UWP.csproj",
+        "projectName": "GagerApp.Uno.UWP",
+        "projectPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.UWP\\GagerApp.Uno.UWP.csproj",
+        "packagesPath": "C:\\Users\\Владимир\\.nuget\\packages\\",
+        "outputPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Uno\\GagerApp.Uno.UWP\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Владимир\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {
+              "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Core\\GagerApp.Core.csproj": {
+                "projectPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Core\\GagerApp.Core.csproj"
+              },
+              "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Model\\GagerApp.Model.csproj": {
+                "projectPath": "D:\\vs\\gager_app\\Gager App\\Solutions\\GagerApp\\GagerApp.Model\\GagerApp.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Calcium.Essentials": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Calcium.Extras": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Filter": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.9, )"
+            },
+            "Uno.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

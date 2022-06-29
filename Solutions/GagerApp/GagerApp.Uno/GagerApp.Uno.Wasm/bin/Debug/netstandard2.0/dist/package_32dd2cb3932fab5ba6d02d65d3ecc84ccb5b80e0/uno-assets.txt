@@ -1,0 +1,3 @@
+Assets/house_plan.png
+Assets/SplashScreen.png
+Source/house_plan.png

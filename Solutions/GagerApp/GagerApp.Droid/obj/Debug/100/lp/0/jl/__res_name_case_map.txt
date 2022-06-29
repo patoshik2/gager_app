@@ -1,0 +1,3 @@
+values/ListRecyclerViewAttributes.xml;values/listrecyclerviewattributes.xml
+values/BindableComboBoxAttributes.xml;values/bindablecomboboxattributes.xml
+values/FontAttributes.xml;values/fontattributes.xml

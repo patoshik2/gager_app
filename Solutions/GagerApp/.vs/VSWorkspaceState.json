@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BindableUI.Droid",
+    "\\GagerApp.Core",
+    "\\GagerApp.Droid",
+    "\\GagerApp.Model",
+    "\\GagerApp.Uno",
+    "\\GagerApp.Uno\\GagerApp.Uno.Droid",
+    "\\GagerApp.Uno\\GagerApp.Uno.iOS",
+    "\\GagerApp.Uno\\GagerApp.Uno.macOS",
+    "\\GagerApp.Uno\\GagerApp.Uno.Shared"
+  ],
+  "SelectedNode": "\\GagerApp.sln",
+  "PreviewInSolutionExplorer": false
+}

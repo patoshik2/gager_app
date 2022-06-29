@@ -1,0 +1,13 @@
+attr;obj\Debug\100\res\values\bindablecomboboxattributes.xml
+attr;obj\Debug\100\res\values\fontattributes.xml
+attr;obj\Debug\100\res\values\listrecyclerviewattributes.xml
+declare-styleable;obj\Debug\100\res\values\bindablecomboboxattributes.xml
+declare-styleable;obj\Debug\100\res\values\fontattributes.xml
+declare-styleable;obj\Debug\100\res\values\listrecyclerviewattributes.xml
+enum;obj\Debug\100\res\values\listrecyclerviewattributes.xml
+item;obj\Debug\100\res\values\bindablecomboboxattributes.xml
+resources;D:\vs\gager_app\Gager App\Solutions\GagerApp\BindableUI.Droid\obj\Debug\100\lp\0\jl\res\values\strings.xml
+resources;D:\vs\gager_app\Gager App\Solutions\GagerApp\BindableUI.Droid\obj\Debug\100\lp\1\jl\res\values\strings.xml
+resources;obj\Debug\100\res\values\bindablecomboboxattributes.xml
+resources;obj\Debug\100\res\values\fontattributes.xml
+resources;obj\Debug\100\res\values\listrecyclerviewattributes.xml

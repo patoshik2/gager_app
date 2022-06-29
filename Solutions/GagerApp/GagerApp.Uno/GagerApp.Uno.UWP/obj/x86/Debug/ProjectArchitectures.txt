@@ -1,0 +1,1 @@
+D:\vs\gager_app\Gager App\Solutions\GagerApp\GagerApp.Uno\GagerApp.Uno.UWP\GagerApp.Uno.UWP.csproj;x86

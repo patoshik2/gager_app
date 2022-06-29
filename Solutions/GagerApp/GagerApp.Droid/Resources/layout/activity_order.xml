@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DataContext: OrderPageViewModel -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+  <com.google.android.material.appbar.MaterialToolbar
+    android:id="@id/system_action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionBarTheme"
+    app:Binding="Target=Title, Path=Number, Mode=OneWay, Converter=AddPrefixConverter, ConverterParameter=Заявка № ;
+    Target=Subtitle, Path=Status, Mode=OneWay, Converter=OrderStatusToStringConverter">
+  </com.google.android.material.appbar.MaterialToolbar>
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+    <ScrollView
+      android:id="@+id/scrollView1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:Binding="Target=Visibility, Path=IsBusy, Mode=OneWay, Converter=FalseToVisibleConverter"
+      >
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          app:contentPaddingTop="4dp"
+          app:contentPaddingBottom="4dp"
+          app:contentPaddingLeft="16dp"
+          app:contentPaddingRight="16dp"
+          android:id="@+id/zayavka_card">
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout1">
+
+            <LinearLayout
+              android:id="@+id/Linear_layout_date_time"
+              android:layout_width="match_parent"
+              android:layout_height="48dp"
+              android:layout_marginVertical="4dp"
+              android:gravity="center_vertical"
+              android:orientation="horizontal">
+
+              <TextView
+                android:id="@+id/zamer_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:textAppearance="?attr/textAppearanceBody1"
+                app:Binding="Target=Text, Path=ZamerDate, Mode=OneWay, Converter=DateTimeToShortDateStringConverter"/>
+
+              <TextView
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:drawableStart="@drawable/ic_baseline_access_time_24"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:textAppearance="?attr/textAppearanceBody1"
+                android:id="@+id/textView1" />
+
+              <TextView
+                android:id="@+id/zamer_star_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:textAppearance="?attr/textAppearanceBody1"
+                app:Binding="Target=Text, Path=ZamerStartTime, Mode=OneWay, Converter=DateTimeToShortTimeStringConverter"/>
+              <TextView
+                android:text=" - "
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:textAppearance="?attr/textAppearanceBody1"
+                android:id="@+id/textView2" />
+              <TextView
+                android:id="@+id/zamer_finish_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:textAppearance="?attr/textAppearanceBody1"
+                app:Binding="Target=Text, Path=ZamerFinishTime, Mode=OneWay, Converter=DateTimeToShortTimeStringConverter"/>
+            </LinearLayout>
+
+            <LinearLayout
+              android:id="@+id/Linear_layout_adress"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginVertical="4dp"
+              android:gravity="center_vertical"
+              android:minHeight="56dp"
+              android:orientation="vertical">
+
+              <TextView
+                android:id="@+id/adress_caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="Адрес"
+                android:textAppearance="?attr/textAppearanceCaption" />
+
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayout2">
+
+                <TextView
+                  android:id="@+id/adress"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:textAppearance="?attr/textAppearanceBody1"
+                  android:gravity="center_vertical"
+                  app:Binding="Target=Text, Path=Adress, Mode=OneWay, Converter=AdressToStringConverter"/>
+
+                <com.google.android.material.button.MaterialButton
+                  android:id="@+id/mapButton"
+                  style="@style/Widget.App.Button.TextButton.IconOnly"
+                  android:layout_width="48dp"
+                  android:layout_height="48dp"
+                  app:icon="@drawable/ic_baseline_location_on_24"
+                  app:Binding="Target=Click, Path=MapCommand, Mode=OneWay"/>
+              </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+              android:id="@+id/Linear_layout_fio"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginVertical="4dp"
+              android:gravity="center_vertical"
+              android:minHeight="56dp"
+              android:orientation="vertical">
+
+              <TextView
+                android:id="@+id/fio_caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ФИО"
+                android:textAppearance="?attr/textAppearanceCaption" />
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayout3"
+                >
+                <TextView
+                  android:id="@+id/fio"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:gravity="center_vertical"
+                  android:textAppearance="?attr/textAppearanceBody1"
+                  app:Binding="Target=Text, Path=Client, Mode=OneWay, Converter=FIOToStringConverter"/>
+
+                <com.google.android.material.button.MaterialButton
+                  android:id="@+id/callButton"
+                  style="@style/Widget.App.Button.TextButton.IconOnly"
+                  android:layout_width="48dp"
+                  android:layout_height="48dp"
+                  app:icon="@drawable/ic_baseline_local_phone_24"
+                  app:Binding="Target=Click, Path=CallPhoneCommand, Mode=OneWay"/>
+              </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+              android:id="@+id/Linear_layout_notes"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginVertical="4dp"
+              android:minHeight="56dp"
+              android:orientation="vertical">
+              <TextView
+                android:id="@+id/notes_caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Примечание"
+                android:textAppearance="?attr/textAppearanceCaption" />
+              <TextView
+                android:id="@+id/notes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textAppearance="?attr/textAppearanceBody1"
+                app:Binding="Target=Text, Path=Notes, Mode=OneWay"/>
+            </LinearLayout>
+          </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          app:contentPaddingTop="4dp"
+          app:contentPaddingBottom="4dp"
+         app:contentPaddingLeft="16dp"
+          app:contentPaddingRight="16dp"
+          android:id="@+id/zamer_card">
+
+          <LinearLayout
+            android:id="@+id/Linear_layout_zamer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:gravity="center_vertical"
+            android:minHeight="56dp"
+            android:orientation="vertical">
+
+            <TextView
+              android:id="@+id/status_zamer_caption"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Замер"
+              android:textAppearance="?attr/textAppearanceCaption" />
+
+            <LinearLayout
+              android:id="@+id/status_zamer_visibility"
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:gravity="center_vertical"
+              android:layout_marginVertical="4dp"
+              android:orientation="horizontal">
+
+              <TextView
+                android:id="@+id/countroom_zamer"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?attr/textAppearanceBody1"
+                app:Binding="Target=Text, Path=ZamerRoomCount, Mode=OneWay, Converter=RoomCounterConverter"/>
+              <com.google.android.material.button.MaterialButton
+                android:id="@+id/gotoZamerButton"
+                style="@style/Widget.App.Button.TextButton.IconOnly"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                app:icon="@drawable/ic_baseline_edit_24"
+                app:Binding="Target=Click, Path=ZamerCommand, Mode=OneWay;
+                Target=Visibility, Path=Status, Mode=OneWay, Converter=StatusVisibleForGoToZamerConverter"/>
+            </LinearLayout>
+          </LinearLayout>
+        </androidx.cardview.widget.CardView>
+<!-->
+        <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          app:contentPaddingTop="4dp"
+          app:contentPaddingBottom="4dp"
+          app:contentPaddingLeft="16dp"
+          app:contentPaddingRight="16dp"
+          android:id="@+id/montage_card">
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:id="@+id/linearLayout4">
+
+          <LinearLayout
+            android:id="@+id/Linear_layout_montag_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:gravity="center_vertical"
+            android:minHeight="48dp"
+            android:orientation="horizontal">
+
+            <Switch
+              android:id="@+id/switch1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:textAppearance="?attr/textAppearanceBody1"
+              android:text="Согласовать монтаж"
+              app:Binding="Target=Checked, Path=Order.IsMontagAccepted, Mode=TwoWay, ChangedEvent=CheckedChange"/>
+
+          </LinearLayout>
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+<-->
+      </LinearLayout>
+    </ScrollView>
+    <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/progressBar1"
+            app:Binding="Target=Visibility, Path=IsBusy, Mode=OneWay, Converter=TrueToVisibleConverter"
+            />
+
+  </FrameLayout>
+  <com.google.android.material.bottomappbar.BottomAppBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="?attr/actionBarTheme"
+    >
+    <bindableUI.droid.views.GridRecyclerView
+      android:id="@+id/current_commands_list"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:scrollDirection="vertical"
+      app:Binding="Target=ItemsSource, Path=CurrentCommands, Mode=OneWay;
+      Target=ViewSelector, Path=CurrentCommands, Mode=OneTime, Converter=SimpleViewSelectorConverter, ConverterParameter=button_actionbar;
+      Target=SpanCount, Path=CurrentCommands.Count, Mode=OneWay"
+      />
+  </com.google.android.material.bottomappbar.BottomAppBar>
+</LinearLayout>

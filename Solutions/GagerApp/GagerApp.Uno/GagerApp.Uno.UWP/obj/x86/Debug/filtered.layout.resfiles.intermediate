@@ -1,0 +1,17 @@
+WinMetadata\Windows.winmd
+Source\house_plan.png
+Assets\LockScreenLogo.scale-200.png
+Assets\SplashScreen.scale-200.png
+Assets\Square150x150Logo.scale-200.png
+Assets\Square44x44Logo.scale-200.png
+Assets\StoreLogo.png
+Assets\Wide310x150Logo.scale-200.png
+App.xbf
+GagerApp.Uno.xr.xml
+Pages\LoginPage.xbf
+Pages\OrderPage.xbf
+Pages\RootPage.xbf
+Pages\TemplatedPage.xbf
+Resources\LoginPageDataTemplate.xbf
+Resources\TypeNameTemplateSelector.xbf
+Properties\Default.rd.xml

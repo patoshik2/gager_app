@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<FrameLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_del"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?dimBackgroundColor"
+	android:clipChildren="false"
+	>
+	<com.google.android.material.card.MaterialCardView
+		android:id="@+id/dialog_content"
+		android:layout_width="@dimen/DialogDefaultWidthDp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		app:cardPreventCornerOverlap="false"
+		app:cardElevation="@dimen/DialogElevationDp"
+		>
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+			<TextView
+				android:id="@+id/dialog_title_del"
+				android:layout_width="match_parent"
+				android:layout_height="64dp"
+				android:text="Body 1"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:alpha="0.6"
+				android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+				android:layout_marginLeft="@dimen/DialogTextPaddingDp"
+				android:layout_marginRight="@dimen/DialogTextPaddingDp"
+				android:gravity="center_vertical"
+				app:Binding="{Target=Text, Source=Caption, Mode=OneWay}"
+			/>
+			
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="52dp"
+				android:orientation="horizontal"
+				android:gravity="center_vertical|end"
+				android:layout_marginLeft="8dp"
+				android:layout_marginRight="8dp"
+				>
+				<com.google.android.material.button.MaterialButton
+					android:id="@+id/dialog_negative_button"
+					android:layout_height="match_parent"
+					android:layout_width="wrap_content"
+					style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+					app:Binding="{Target=Text, Source=NegativeButtonCaption, Mode=OneWay;
+					Target=Click, Source=NegativeCommand, Mode=OneWay
+					}"
+				/>
+				<com.google.android.material.button.MaterialButton
+					android:id="@+id/dialog_positive_button"
+					android:layout_height="match_parent"
+					android:layout_width="wrap_content"
+					style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+					app:Binding="{Target=Text, Source=PositiveButtonCaption, Mode=OneWay;
+					Target=Click, Source=PositiveCommand, Mode=OneWay
+					}"
+				/>
+			</LinearLayout>
+		</LinearLayout>
+	</com.google.android.material.card.MaterialCardView>
+</FrameLayout>

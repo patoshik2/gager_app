@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DataContext: ZamerPageViewModel -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@id/system_action_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Title">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/zamernumber_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:textColor="?attr/colorOnPrimary"
+                app:Binding="Target=Text, Path=Number, Mode=OneWay, Converter=AddPrefixConverter, ConverterParameter=Заявка № "
+                />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/orderButton"
+                style="@style/Widget.App.Button.TextButton.IconOnly"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                app:icon="@drawable/ic_baseline_location_on_24"
+      />
+        </LinearLayout>
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+
+
+    <bindableUI.droid.views.ListRecyclerView
+        android:id="@+id/rooms_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@id/framelayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/system_action_bar"
+        app:Binding="
+    Target=ItemsSource, Path=Rooms, Mode=OneWay;
+    Target=ViewSelector, Path=Rooms, Mode=OneTime, Converter=SimpleViewSelectorConverter, ConverterParameter=card_roomlist_item;
+    Target=ItemClickCommand, Path=RoomClickCommand, Mode=OneWay;
+    Target=Visibility, Path=IsBusy, Mode=OneWay, Converter=FalseToVisibleConverter"
+        />
+
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:Binding="Target=Visibility, Path=IsBusy, Mode=OneWay, Converter=FalseToVisibleConverter"
+        >
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar_skidka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"  />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:weightSum="2"
+      >
+
+            <LinearLayout
+                android:id="@+id/linear_layout_skidka"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingRight="28dp">
+
+                <TextView
+                    android:id="@+id/skidka_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Скидка"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textColor="?attr/colorOnPrimary" />
+
+
+                <bindableUI.droid.views.BindableComboBox
+                    android:id="@+id/spinner_skidka"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+          app:bindableComboBoxLayout="@layout/combo_box_container_borderless"
+          app:Binding="Target=ItemsSource, Path=Discounts, Mode=OneWay;
+          Target=ViewSelector, Path=Discounts, Mode=OneTime, Converter=SimpleViewSelectorConverter, ConverterParameter=combobox_card_discount;
+          Target=SelectedItem, Path=Discount, Mode=TwoWay, ChangedEvent=SelectedItemChanged"
+          />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_sum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingLeft="28dp">
+
+                <TextView
+                    android:id="@+id/sum_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="Итого"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textColor="?attr/colorOnPrimary" />
+
+                <TextView
+                    android:id="@+id/sum"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textColor="?attr/colorOnPrimary"
+                    app:Binding="Target=Text, Path=Sum, Mode=OneWay"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/progressBar1"
+            app:Binding="Target=Visibility, Path=IsBusy, Mode=OneWay, Converter=TrueToVisibleConverter"
+            />
+
+    </FrameLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/action_button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@id/framelayout"
+        app:layout_constraintLeft_toLeftOf="@id/framelayout"
+        app:layout_constraintRight_toRightOf="@id/framelayout"
+        app:layout_constraintTop_toTopOf="@id/framelayout"
+        app:srcCompat="@drawable/ic_baseline_add_24"
+        app:Binding="Target=Click, Path=AddRoom, Mode=OneWay;
+        Target=Visibility, Path=IsBusy, Mode=OneWay, Converter=FalseToVisibleConverter"  />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
